@@ -22,23 +22,23 @@
     <header>
       <div class="container header">
         <div class="header-main">
-        <a class="link-logo logo" href="index.html"><span class="partlogo">Web</span>Studio</a>
-        <nav>
-          <ul class="list nav">
-            <li class="item"><a class="link site-nav current" href="./index.html">Studio</a></li>
-            <li class="item"><a class="link site-nav" href="./portfolio.html">Portfolio</a></li>
-            <li class="item"><a class="link site-nav" href="#">Contacts</a></li>
+          <a class="link-logo logo" href="index.html"><span class="partlogo">Web</span>Studio</a>
+          <nav>
+            <ul class="list nav">
+              <li class="item"><a class="link site-nav current" href="./index.html">Studio</a></li>
+              <li class="item"><a class="link site-nav" href="./portfolio.html">Portfolio</a></li>
+              <li class="item"><a class="link site-nav" href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="list contacts">
+            <li class="item">
+              <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a class="link contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
           </ul>
-        </nav>
-        <ul class="list contacts">
-          <li class="item">
-            <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a class="link contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </div>
+        </div>
         <!-- Мобильное меню -->
         <div class="logotyp">
           <a class="link-logo logo" href="index.html"><span class="partlogo">Web</span>Studio</a>
@@ -62,7 +62,7 @@
                     <a class="link site-nav-mob current" href="./index.html">Studio</a>
                   </li>
                   <li class="item">
-                    <a class="link site-nav-mob"-mob href="./portfolio.html">Portfolio</a>
+                    <a class="link site-nav-mob" href="./portfolio.html">Portfolio</a>
                   </li>
                   <li class="item"><a class="link site-nav-mob" href="#">Contacts</a></li>
                 </ul>
@@ -123,7 +123,7 @@
           Effective Solutions <br />
           For Your Business
         </h1>
-        <button data-modal-open class=" button main-button" type="button">Order Service</button>
+        <button data-modal-open class="button main-button" type="button">Order Service</button>
       </section>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -247,18 +247,31 @@
           <h2 class="second-title">What are we doing</h2>
           <ul class="list operation">
             <li class="item">
-              <a class="link" href="#" aria-label="Development of desktop applications"
-                ><img src="./images/desktop.jpg" alt="Desktop device" width="360"
-              /></a>
+              <a class="link" href="#" aria-label="Development of desktop applications">
+                <img
+                  srcset="./images/desktop.jpg 1x, ./images/desktop-2x.jpg 2x"
+                  src="./images/desktop.jpg"
+                  alt="Desktop device"
+                  width="360"
+                />
+              </a>
             </li>
             <li class="item">
               <a class="link" href="#" aria-label="Mobile Application Development"
-                ><img src="./images/smartphone.jpg" alt="Digital mobile device" width="360"
+                ><img
+                  srcset="./images/smartphone.jpg 1x, ./images/smartphone-2x.jpg 2x"
+                  src="./images/smartphone.jpg"
+                  alt="Digital mobile device"
+                  width="360"
               /></a>
             </li>
             <li class="item">
               <a class="link" href="#" aria-label="Creation of design solutions"
-                ><img src="./images/devices.jpg" alt="Digital devices" width="360"
+                ><img
+                  srcset="./images/devices.jpg 1x, ./images/devices-2x.jpg 2x"
+                  src="./images/devices.jpg"
+                  alt="Digital devices"
+                  width="360"
               /></a>
             </li>
           </ul>
