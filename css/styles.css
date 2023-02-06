@@ -1105,7 +1105,6 @@ footer {
 .foot-text {
   color: var(--second-complementary-color);
   letter-spacing: 0.02em;
-  margin-bottom: 72px;
 }
 
 .footer-title {
@@ -1130,6 +1129,9 @@ footer {
 }
 .footer-media {
   width: 208px;
+  margin-bottom: 72px;
+}
+.foot-info{
   margin-bottom: 72px;
 }
 .footer-media-link {
@@ -1176,11 +1178,7 @@ footer {
     width: 396px;
   }
 }
-@media screen and (min-width: 768px) {
-  .subscription input {
-    width: 264px;
-  }
-}
+
 .subscribe-button {
   display: flex;
   width: 165px;
@@ -1210,12 +1208,51 @@ footer {
 }
 
 
+/* на 1200 */
+
+
+@media screen and (min-width:768px) {
+  .conclusion{
+    flex-direction: row;
+    align-items: stretch;
+  }
+.footpartlogo,
+.submit-text,
+.footer-title{
+  text-align: left;
+}
+.subscription input {
+  width: 264px;
+margin: 0;
+}
+.foot-form{
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 24px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1200px){
+  .conclusion{
+    padding-left: 108px;
+    flex-wrap: wrap;
+  }
+  .foot-info{
+    margin-right: 24px;
+  }
+}
 
 
 
+@media screen and (min-width:1200px) {
 
-
-
+ .foot-info{
+  margin-right: 120px;
+ }
+ .footer-media{
+  margin-right: 80px;
+ }
+}
 
 
 
