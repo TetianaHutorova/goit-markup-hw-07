@@ -317,9 +317,7 @@ header {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .contact {
-    padding: 0;
-  }
+
 }
 
 @media screen and (max-width: 1199px) {
@@ -339,6 +337,10 @@ header {
 @media screen and (min-width: 1200px) {
   .contacts .item:not(:last-child) {
     margin-right: 40px;
+  }
+  .contact {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
